@@ -32,7 +32,7 @@
   <arg         name           = 'world_name'
                default        = 'race_track'/>
   <arg         name           = 'gui'
-               default        = 'true'/>
+               default        = 'false'/>
   <arg         name           = 'run_camera'
                default        = 'false'/>
 
