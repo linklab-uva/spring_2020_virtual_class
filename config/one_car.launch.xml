@@ -75,11 +75,10 @@
                args           = '$(arg car_name)'/> </group> -->
 
   <!-- reset racecar to pit stop -->
-  <!--
   <node        name           = '$(arg car_name)_pit_stop_reset'
                pkg            = 'spring_2020_virtual_class'
                type           = 'set_racecar_state.py'
-               args           = '$(arg car_name)'/> -->
+               args           = '$(arg car_name)'/>
 
   <!-- spawn car using the set global parameters -->
   <include     file           = '$(find spring_2020_virtual_class)/config/vehicle_class.launch.xml'>
