@@ -180,7 +180,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/varundev/.gazebo/models/race_track/race_track.stl</uri>
+              <uri>/home/rosmaster/.gazebo/models/race_track/race_track.stl</uri>
               <scale>0.1 0.1 0.5</scale>
             </mesh>
           </geometry>
