@@ -154,7 +154,7 @@
           <geometry>
             <mesh>
               <uri>model://race_track/race_track.stl</uri>
-              <scale>0.1 0.1 0.025</scale>
+              <scale>0.1 0.1 0.0125</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
