@@ -16,14 +16,14 @@ loop_quit        = False
 # x_vel          = float(sys.argv[5])
 # y_vel          = float(sys.argv[6])
 # z_vel          = float(sys.argv[7])
-car_1_reset_pose = [5.0, -6.5,  0.0]
-car_2_reset_pose = [5.0, -3.5,  0.0]
-car_3_reset_pose = [5.0, -0.5,  0.0]
-car_4_reset_pose = [5.0,  2.5,  0.0]
-car_5_reset_pose = [5.0,  5.5,  0.0]
-car_6_reset_pose = [5.0,  8.5,  0.0]
-car_7_reset_pose = [5.0,  11.5, 0.0]
-car_8_reset_pose = [5.0,  14.5, 0.0]
+car_1_reset_pose = [ 7.00, -7.50,  0.00]
+car_2_reset_pose = [ 7.00, -4.50,  0.00]
+car_3_reset_pose = [ 1.75, -7.50,  0.00]
+car_4_reset_pose = [ 1.75, -4.50,  0.00]
+car_5_reset_pose = [-3.50, -7.50,  0.00]
+car_6_reset_pose = [-3.50, -4.50,  0.00]
+car_7_reset_pose = [-8.75, -7.50,  0.00]
+car_8_reset_pose = [-8.75, -4.50,  0.00]
 frame_id         = 'odom'
 
 rospy.set_param('/{}/reset_to_pit_stop'.format(car_name), 'False')
