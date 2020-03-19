@@ -2,7 +2,7 @@
 
 For official use on CS servers only  
 
-** Currently deployed on gpusrv05.cs.virginia.edu **  
+**Currently deployed on gpusrv05.cs.virginia.edu**  
 
 First, set Gazebo to run headless using `xvfb-run`, default screen 0 at `1920x1080` using 16 bit color
 
