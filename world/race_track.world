@@ -87,7 +87,7 @@
         <collision name='collision'>
           <geometry>
             <box>
-              <size>33.33 27.21 0.1</size>
+              <size>28.54 22.04 0.1</size>
             </box>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -108,7 +108,7 @@
           <cast_shadows>0</cast_shadows>
           <geometry>
             <box>
-              <size>33.33 27.21 0.1</size>
+              <size>28.54 22.04 0.1</size>
             </box>
           </geometry>
           <material>
@@ -134,7 +134,7 @@
           <geometry>
             <mesh>
               <uri>model://race_track/race_track.stl</uri>
-              <scale>0.1 0.1 0.05</scale>
+              <scale>0.1 0.1 0.1</scale>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -155,7 +155,7 @@
           <geometry>
             <mesh>
               <uri>model://race_track/race_track.stl</uri>
-              <scale>0.1 0.1 0.0125</scale>
+              <scale>0.1 0.1 0.025</scale>
             </mesh>
           </geometry>
         </visual>
@@ -169,10 +169,10 @@
     </audio>
     <wind/>
     <state world_name='default'>
-      <sim_time>98 362000000</sim_time>
-      <real_time>35 489767851</real_time>
-      <wall_time>1584637221 517891190</wall_time>
-      <iterations>35392</iterations>
+      <sim_time>170 535000000</sim_time>
+      <real_time>72 357007893</real_time>
+      <wall_time>1584808949 743558627</wall_time>
+      <iterations>72173</iterations>
       <model name='asphalt_plane'>
         <pose frame=''>-0.719505 0.551979 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -194,10 +194,10 @@
         </link>
       </model>
       <model name='race_track'>
-        <pose frame=''>-21.3429 -22.7447 0 0 -0 0</pose>
+        <pose frame=''>-28.0315 -24.6199 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='body'>
-          <pose frame=''>-21.3429 -22.7447 0 0 -0 0</pose>
+          <pose frame=''>-28.0315 -24.6199 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -209,7 +209,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>-0.162449 -22.7205 24.7836 0 0.887642 1.57619</pose>
+        <pose frame=''>-25.5315 -42.4719 35.3512 -0 0.687642 1.15301</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
